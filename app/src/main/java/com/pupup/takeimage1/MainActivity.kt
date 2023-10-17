@@ -9,10 +9,12 @@ import android.widget.ImageView
 
 class MainActivity : AppCompatActivity() {
     lateinit var userImage : de.hdodenhof.circleimageview.CircleImageView
+
     @SuppressLint("MissingInflatedId")
     companion object{
         val IMAGE_REQUEST_CODE = 100
     }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
